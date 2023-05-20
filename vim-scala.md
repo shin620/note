@@ -160,6 +160,8 @@ nvim ~/.config/nvim/init.lua
 
 init.luaに以下の内容をコピペする。
 
+参照元：https://github.com/scalameta/nvim-metals/discussions/39
+
 ```lua
 -------------------------------------------------------------------------------
 -- These are example settings to use with nvim-metals and the nvim built-in
@@ -588,7 +590,7 @@ apt install fzf
 
 ```
 docker stop vim-scala
-docker commit 
+docker commit vim-scala vim-scala:1.0
 ```
 
 1.3GBにもなってしまった。Dockerfileを使ったり、Ubuntuではなくalphineを使ったりすれば軽量化できるのかもしれないが、いったんこのままでいこう。
