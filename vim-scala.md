@@ -451,7 +451,7 @@ Here are the steps to fix the issue:
 Once you've made these modifications and rebuilt your plugins, the module 'cmp' not found error should be resolved.
 ```
 
-:PackeCompileと:PackerSyncというコマンドがあるようなので、nvimでそれを叩いてみる。packer使いからしたら当たり前なのだろうけど、ご勘弁。
+:PackerCompileと:PackerSyncというコマンドがあるようなので、nvimでそれを叩いてみる。packer使いからしたら当たり前なのだろうけど、ご勘弁。
 
 ```
                packer.nvim - finished in 0.912s
